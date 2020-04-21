@@ -1,9 +1,8 @@
 from bs4 import BeautifulSoup
-#import urllib.request as request
+import urllib.request as request
 import telepot
 import time, datetime
 from telepot.loop import MessageLoop
-import urllib3.request as request
 
 URL = 'https://jadwalsholat.pkpu.or.id/'
 page = request.urlopen(URL)
