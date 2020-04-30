@@ -37,7 +37,8 @@ while True:
     jam = now.strftime("%H:%M")
     #okeh = "10:20"
     #print(jam)
-
+    
+    bot.sendMessage ('@JadwalSholatJakarta', str(" Pulang yuk!"))
     if jam == Shubuh :
         print("Shubuh")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Shubuh oi!"))
