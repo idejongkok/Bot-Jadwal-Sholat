@@ -38,23 +38,22 @@ while True:
     #okeh = "10:20"
     #print(jam)
     
-    bot.sendMessage ('@JadwalSholatJakarta', str(" Pulang yuk!"))
     if jam == Shubuh :
         print("Shubuh")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Shubuh oi!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Shubuh!"))
     elif jam == Dzuhur :
         print("Dzuhur")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Dzuhur oi!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Dzuhur!"))
     elif jam == Ashar :
         print("Ashar")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Ashar oi!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Ashar!"))
     elif jam == Maghrib :
         print("Maghrib")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib oi!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib!"))
         bot.sendMessage ('@JadwalSholatJakarta', str(" Selamat Berbuka Puasa!"))
     elif jam == Isya :
         print("Isya")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya oi!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
 
     time.sleep(60)
 
