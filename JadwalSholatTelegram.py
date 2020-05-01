@@ -12,18 +12,18 @@ soup = BeautifulSoup(page.text,'html.parser')
 bot = telepot.Bot('1267590625:AAHJV6vU6Q5KxMBs6CAYcehsshNp1s56h9I')
 
 TabelWaktu = soup.find('tr', {'class':'table_highlight'})
-Shubuh = TabelWaktu.find_all('td')[1].get_text()
-Dzuhur = TabelWaktu.find_all('td')[2].get_text()
-Ashar = TabelWaktu.find_all('td')[3].get_text()
-Maghrib = TabelWaktu.find_all('td')[4].get_text()
-Isya = TabelWaktu.find_all('td')[5].get_text()
+
+
+
+
+
 
 response = bot.getUpdates()
 
    
 pprint(response)
 print ('Memulai..')
-print(Shubuh)
+
 
 while True:
 
