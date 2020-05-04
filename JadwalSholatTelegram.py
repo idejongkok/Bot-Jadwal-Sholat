@@ -12,15 +12,8 @@ soup = BeautifulSoup(page.text,'html.parser')
 bot = telepot.Bot('1267590625:AAHJV6vU6Q5KxMBs6CAYcehsshNp1s56h9I')
 
 TabelWaktu = soup.find('tr', {'class':'table_highlight'})
-
-
-
-
-
-
 response = bot.getUpdates()
 
-   
 pprint(response)
 print ('Memulai..')
 
@@ -55,6 +48,4 @@ while True:
         print("Isya")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
 
-    time.sleep(60)
-
-
+    time.sleep(10)
