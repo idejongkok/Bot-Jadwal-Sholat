@@ -43,7 +43,7 @@ while True:
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktu Ashar hari ini : ", Ashar))
     elif jam == Maghrib :
         print("Maghrib")
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib! \n Selamat Berbuka Puasa!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib, Selamat Berbuka Puasa!"))
     elif jam == Isya :
         print("Isya")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
