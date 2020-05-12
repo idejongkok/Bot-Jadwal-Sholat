@@ -29,24 +29,33 @@ while True:
     #okeh = "10:20"
     #print(jam)
     
+    NShubuh = "Waktu Shubuh hari ini :" + Shubuh
+    NDzuhur = "Waktu Dzuhur hari ini :" + Dzuhur
+    NAshar = "Waktu Ashar hari ini :" + Ashar
+    NMaghrib = "Waktu Maghrib hari ini :" + Maghrib
+    NIsya = "Waktu Isya hari ini :" + Isya
+    
+    Print(NShubuh)
+    
     if jam == Shubuh :
         print("Shubuh")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Shubuh!"))
-        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Shubuh hari ini : ", Shubuh))
+        bot.sendMessage ('@JadwalSholatJakarta', str(NShubuh))
     elif jam == Dzuhur :
         print("Dzuhur")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Dzuhur!"))
-        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Dzuhur hari ini : ", Dzuhur))
+        bot.sendMessage ('@JadwalSholatJakarta', str(NDzuhur))
     elif jam == Ashar :
         print("Ashar")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Ashar!"))
-        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Ashar hari ini : ", Ashar))
+        bot.sendMessage ('@JadwalSholatJakarta', str(NAshar))
     elif jam == Maghrib :
         print("Maghrib")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib, Selamat Berbuka Puasa!"))
+        bot.sendMessage ('@JadwalSholatJakarta', str(NMaghrib))
     elif jam == Isya :
         print("Isya")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
-        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Isya hari ini : ", Isya))
+        bot.sendMessage ('@JadwalSholatJakarta', str(NIsya))
 
     time.sleep(10)
