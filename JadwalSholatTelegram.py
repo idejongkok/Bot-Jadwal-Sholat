@@ -32,21 +32,21 @@ while True:
     if jam == Shubuh :
         print("Shubuh")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Shubuh!"))
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktu Shubuh hari ini : ", Shubuh))
+        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Shubuh hari ini : ", Shubuh))
     elif jam == Dzuhur :
         print("Dzuhur")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Dzuhur!"))
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktu Dzuhur hari ini : ", Dzuhur))
+        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Dzuhur hari ini : ", Dzuhur))
     elif jam == Ashar :
         print("Ashar")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Ashar!"))
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktu Ashar hari ini : ", Ashar))
+        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Ashar hari ini : ", Ashar))
     elif jam == Maghrib :
         print("Maghrib")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Maghrib, Selamat Berbuka Puasa!"))
     elif jam == Isya :
         print("Isya")
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
-        bot.sendMessage ('@JadwalSholatJakarta', str(" Waktu Isya hari ini : ", Isya))
+        bot.sendMessage ('@JadwalSholatJakarta', (" Waktu Isya hari ini : ", Isya))
 
     time.sleep(10)
