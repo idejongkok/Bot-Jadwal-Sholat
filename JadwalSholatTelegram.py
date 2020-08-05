@@ -5,8 +5,8 @@ import time, datetime
 from telepot.loop import MessageLoop
 from pprint import pprint
 
-URL = 'https://jadwalsholat.pkpu.or.id/'
-bot = telepot.Bot('1267590625:AAHJV6vU6Q5KxMBs6CAYcehsshNp1s56h9I')
+URL = 'https://jadwalsholat.pkpu.or.id/' # ini alamat URL yang menyediakan jadwal sholat realtime, kita akan scraping page ini
+bot = telepot.Bot('******') # <-- Ganti String value dengan token dari telegram bot / BotFather
 response = bot.getUpdates()
 
 pprint(response)
