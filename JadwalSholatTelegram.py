@@ -35,7 +35,7 @@ while True:
     NMaghrib = "Waktu Maghrib hari ini :" + Maghrib
     NIsya = "Waktu Isya hari ini :" + Isya
     
-    Print(NShubuh)
+    #Print(NShubuh)
     
     if jam == Shubuh :
         print("Shubuh")
@@ -58,4 +58,4 @@ while True:
         bot.sendMessage ('@JadwalSholatJakarta', str(" Waktunya Sholat Isya!"))
         bot.sendMessage ('@JadwalSholatJakarta', str(NIsya))
 
-    time.sleep(10)
+    time.sleep(60) # <-- interval waktu setiap 1x looping saat scraping web. dalam detik. semakin sedikit waktu loopingnya semakin akurat, tetapi semakin berat kerja dari koding.
